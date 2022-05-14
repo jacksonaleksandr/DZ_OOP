@@ -161,7 +161,7 @@ def average_all_lecturers(lecturers_list, course_name):
                 res += sum(value)
     average = res / count
     print(f'Средняя оценка лекторов по курсу {course_name}: {round(average, 2)}')
-# average_all_students(lecturers, "Git")
+
 average_all_lecturers(lecturers, "Python")
 
 
